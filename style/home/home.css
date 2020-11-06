@@ -145,3 +145,110 @@ p {
 .btn-icon {
 	margin-left: 1rem;
 }
+
+
+.ten_px_height_line {
+	height: 10px;
+	background: #222;
+}
+
+
+/*  -----------------TABS---------------- */
+
+.tab_1 {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.tab_1_left {
+	padding-right: 20px;
+}
+
+.tab_1_right {
+	padding-left: 20px;
+}
+
+.tab_1_left h1 {
+	font-size: 3.125rem;
+	line-height: 1.1;
+	margin-bottom: .5rem;
+	max-width: 600px;
+	text-align: left;
+}
+
+.tab_1_left p {
+	font-size: 1.625rem;
+	font-weight: 400;
+	max-width: 600px;
+	text-align: left;
+	color: white;
+}
+
+.tab_2 {
+	padding: 0;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.tab_2_left {
+	padding-right: 20px;
+}
+
+.tab_2_right {
+	padding-left: 20px;
+}
+
+.tab_2_right h1 {
+	font-size: 3.125rem;
+	line-height: 1.1;
+	margin-bottom: .5rem;
+	max-width: 600px;
+	text-align: left;
+}
+
+.tab_2_right p {
+	font-size: 1.625rem;
+	font-weight: 400;
+	color: white;
+	max-width: 600px;
+	text-align: left;
+}
+
+.tab_3 {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.tab_3_left {
+	padding-right: 20px;
+}
+
+.tab_3_right {
+	padding-left: 20px;
+}
+
+.tab_3_left h1 {
+	font-size: 3.125rem;
+	line-height: 1.1;
+	margin-bottom: .5rem;
+	max-width: 600px;
+	text-align: left;
+}
+
+.tab_3_left p {
+	font-size: 1.625rem;
+	font-weight: 400;
+	max-width: 600px;
+	text-align: left;
+	color: white;
+}
+
