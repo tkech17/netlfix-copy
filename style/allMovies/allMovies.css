@@ -1,0 +1,235 @@
+body {
+	background-color: black;
+	font: 90%/180% Arial, Helvetica, sans-serif;
+}
+
+.horizList {
+	display: flex;
+	overflow-x: auto;
+	height: 20vh;
+	margin-bottom: 7vh;
+	width: 100%;
+}
+
+.horizList img {
+	margin-right: 0.5vw;
+
+}
+
+.horizList::-webkit-scrollbar {  
+ 	display: none;
+}
+
+.sectionTitle h1 {
+	color: white;
+	font-size: 20px;
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	line-height: 1.5;
+	padding-bottom: 1vh;
+}
+
+.lists {
+	margin-top: 10vh;
+}
+
+.menuItems {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 30vw;
+}
+
+.menuItems a {
+	text-decoration: none;
+	color: white;
+}
+
+.menuItems a:hover {
+	color: #69C;
+}
+
+.logo img {
+	width: 10vw;
+	height: auto;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 10vh;
+}
+
+.buttons {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: row-reverse;
+	padding-right: 20px;
+}
+
+/* ---------------------------------- SEARCH BUTTON ----------------------------------------- */
+
+input {
+	outline: none;
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+
+
+input[type=search] {
+	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 9px 10px 9px 32px;
+	width: 55px;
+	
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+input[type=search]:focus {
+	width: 130px;
+	background-color: #fff;
+	border-color: #66CC75;
+	
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+
+input:-moz-placeholder {
+	color: #999;
+}
+input::-webkit-input-placeholder {
+	color: #999;
+}
+
+/* Demo 2 */
+#demo-2 input[type=search] {
+	width: 15px;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;
+}
+#demo-2 input[type=search]:hover {
+	background-color: #fff;
+}
+#demo-2 input[type=search]:focus {
+	width: 130px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;
+}
+#demo-2 input:-moz-placeholder {
+	color: transparent;
+}
+#demo-2 input::-webkit-input-placeholder {
+	color: transparent;
+}
+
+/* ------------------------------------- HEADER MOVIE ----------------------------------------- */
+
+.headerMovie {
+	width: 100vw;
+}
+
+.headerMovie img {
+	position: absolute;
+	top: 0;
+	width: 100vw;
+	height: auto;
+	z-index: -99;
+}
+
+.headerLogo img {
+	width: 35vw;
+}
+
+.headerInfo {
+	display: flex;
+	flex-direction: column;
+	width: 35vw;
+	flex-wrap: wrap;
+	padding-left: 3vw;
+
+}
+
+.headerText p {
+	color: white;
+	font-size: 1.2rem;
+	line-height: 1.2;
+	font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.headerText {
+	padding-top: 5vh;
+}
+
+.headerText {
+	padding-bottom: 5vh;
+}
+
+.headerLogo {
+	padding-top: 10vh;
+}
+
+/* ------------------------------------- MORE BUTTONS (PLAY, MORE INFO) ----------------------------------------------- */
+
+.moreButtons {
+	display: flex;
+	flex-direction: row;
+	/*justify-content: space-evenly;*/
+}
+
+.play, .moreInfo {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding:8px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.play {
+	/*padding-right: 10px;*/
+	background-color: white;
+	color: black;
+	border: 2px solid #e7e7e7;
+}
+
+.moreInfo {
+	background-color: white;
+	color: black;
+	border: 2px solid #555555;
+}
+
+.play:hover {background-color: #e7e7e7;}
+
+.moreInfo:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.moreButtons {
+	padding-bottom: 10vh;
+}
