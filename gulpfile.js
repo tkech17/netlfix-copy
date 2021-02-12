@@ -2,6 +2,7 @@ const { src, dest, parallel } = require('gulp');
 
 var concat = require('gulp-concat');
  
+// can't back js modules :(
 function packJs(){
 	return src('js/**/*.js')
         .pipe(concat('bundle.js'))
@@ -14,4 +15,4 @@ function packCss() {
         .pipe(dest('public'));
 }
  
-exports.default = parallel(packJs, packCss);
+exports.default = packCss;

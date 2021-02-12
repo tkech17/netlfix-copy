@@ -43,7 +43,6 @@
 .sectionTitle h1 {
 	color: white;
 	font-size: 2rem;
-	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 	line-height: 1.5;
 	padding-bottom: 1vh;
 }
@@ -113,7 +112,6 @@
 	color: white;
 	font-size: 1.2rem;
 	line-height: 1.2;
-	font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
 .headerText {

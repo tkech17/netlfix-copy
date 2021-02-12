@@ -14,8 +14,9 @@
 	}
 }
 
-body {
-	font-family: Arial, sans-serif;
+body {  
+	font-family: 'Roboto', Helvetica, sans-serif;
+
 	-webkit-font-smoothing: antialiased;
 	background: #000;
 	color: #ddd;
