@@ -1,0 +1,56 @@
+.movie-page-container {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	flex-direction: column;
+}
+
+.movie-page {
+	display: flex;
+	max-width: 1000px;
+	width: 95%; 
+	flex-direction: column;
+}
+
+.player {
+	height: 60vh;
+	background-color: gray;
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+	.player {
+		height: 40vh;
+	}
+}
+
+
+.player iframe {
+	height: 100%;
+	width: 100%;
+}
+
+.match-score {
+	font-size: 1.2rem;
+	color: green;
+	font-weight: bold;
+}
+
+.title {
+	font-size: 2.5rem;
+	font-weight: bold;
+	line-height: 10rem;
+}
+
+.description {
+	font-size: 1.2rem;
+	width: 50%;
+	line-height: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+	.description {
+		width: 100%;
+	}
+}

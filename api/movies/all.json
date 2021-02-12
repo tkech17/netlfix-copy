@@ -1,0 +1,67 @@
+[
+	{
+		"category": "Netflix Originals",
+		"movies": [
+			{
+				"name": "Black mirror",
+				"img": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQMeRlrLJszZK1PPcfBNRSlWjLN6oOCiyEcH4Gu3dHI9rDeOe1xCjm9eKBIRzB8xqb2TB1ZZtvO-4OENdyoElsqFMEfyUenyx0nx20hrhkpwiziodReUWh4bPfyq.jpg",
+				"id": "black-mirror"
+			},
+			{
+				"name": "Rick and Morty",
+				"img": "https://static.onecms.io/wp-content/uploads/sites/6/2019/11/rick-and-morty-season-4-2000.jpg",
+				"id": "rick-and-morty"
+			},
+			{
+				"name": "Lupin",
+				"img": "https://bingeddata.s3.amazonaws.com/uploads/2020/12/Lupin-Netflix-Series-1.jpg",
+				"id": "lupin"
+			},
+			{
+				"name": "Spiderman",
+				"img": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABdQxHJVYluOEJTKBgxtvI55yIY4yncsV37qMhqMfHBNeUFfGWaxGUsI-RrYthCNTBn4vsI_RdSB21K1_siGpjit2LZY.webp",
+				"id": "spiderman"
+			}
+		]
+	},
+	{
+		"category": "Drama",
+		"movies": [
+			{
+				"name": "Black mirror",
+				"img": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQMeRlrLJszZK1PPcfBNRSlWjLN6oOCiyEcH4Gu3dHI9rDeOe1xCjm9eKBIRzB8xqb2TB1ZZtvO-4OENdyoElsqFMEfyUenyx0nx20hrhkpwiziodReUWh4bPfyq.jpg",
+				"id": "black-mirror"
+			},
+			{
+				"name": "Rick and Morty",
+				"img": "https://static.onecms.io/wp-content/uploads/sites/6/2019/11/rick-and-morty-season-4-2000.jpg",
+				"id": "rick-and-morty"
+			},
+			{
+				"name": "Lupin",
+				"img": "https://bingeddata.s3.amazonaws.com/uploads/2020/12/Lupin-Netflix-Series-1.jpg",
+				"id": "lupin"
+			}
+		]
+	},
+	{
+		"category": "Horror",
+		"movies": [
+			{
+				"name": "Black mirror",
+				"img": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQMeRlrLJszZK1PPcfBNRSlWjLN6oOCiyEcH4Gu3dHI9rDeOe1xCjm9eKBIRzB8xqb2TB1ZZtvO-4OENdyoElsqFMEfyUenyx0nx20hrhkpwiziodReUWh4bPfyq.jpg",
+				"id": "black-mirror"
+			},
+			{
+				"name": "Rick and Morty",
+				"img": "https://static.onecms.io/wp-content/uploads/sites/6/2019/11/rick-and-morty-season-4-2000.jpg",
+				"id": "rick-and-morty"
+			},
+			{
+				"name": "Lupin",
+				"img": "https://bingeddata.s3.amazonaws.com/uploads/2020/12/Lupin-Netflix-Series-1.jpg",
+				"id": "lupin"
+			}
+		]
+	}
+]

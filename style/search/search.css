@@ -1,0 +1,27 @@
+
+.search-result-container {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	flex-direction: column;
+}
+
+.search-result {
+	display: flex;
+	max-width: 1600px;
+	width: 95%; 
+	flex-direction: column;
+}
+
+.wrapList {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 7vh;
+	width: 100%;
+}
+
+.wrapList img {
+	padding: 10px;
+	height: 20vh;
+	min-height: 200px;
+}

@@ -2,8 +2,50 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Netflix</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script type="text/javascript">
-			window.location = 'pages/home/home.html'
+			// window.location = 'pages/home/home.html'
 		</script>
+		<script crossorigin="anonymous" src="https://kit.fontawesome.com/80d8d7d5d7.js"></script>
+		<link rel="stylesheet" type="text/css" href="/style/footer/footer.css">
+		<link rel="stylesheet" type="text/css" href="/style/navbar/navbar.css">
+		<link rel="stylesheet" type="text/css" href="/style/movie/movie.css">
+		<link rel="stylesheet" type="text/css" href="/style/home/home.css">
+		<link rel="stylesheet" type="text/css" href="/style/reset/reset.css">
+		<link rel="stylesheet" type="text/css" href="/style/allMovies/allMovies.css">
+		<link rel="stylesheet" type="text/css" href="/style/search/search.css">
+		<link rel="stylesheet" type="text/css" href="/style/base.css">
 	</head>
+	<body>
+		<header class="navbar">
+			<div class = "navbar-first"> 
+				<a class="logo" href="/" data-navigo>
+					<img src="../../asset/img/netflix_logo.png">
+				</a>
+				<button class="burger-btn btn btn-red">
+					<i class="fas fa-bars"></i>
+				</button>
+			</div>
+			<div class="menuItems">
+				<a href="/all" data-navigo>Movies</a>
+				<a href="/" data-navigo>Homepage</a>
+				<a href="#" data-navigo>Lorem</a>
+				<a href="#" data-navigo>Ipsum</a>
+				<a href="#" data-navigo>Lorem</a>
+			</div>
+			<div class="buttons nav-buttons">
+				<a class="btn btn-red siginbtn" href="https://www.netflix.com/login">
+					Sign In
+				</a>
+				<div>
+					<input id="search-input" type="search" placeholder="Search">
+				</div>
+			</div>
+		</header>
+		<div id="root"></div>
+		<footer class="center size-90"></footer>
+
+    	<script src="//unpkg.com/navigo"></script>
+		<script type="module" src="/js/index.js"></script>
+	</body>
 </html>
